@@ -1,10 +1,12 @@
 __author__ = 'aligajani'
 
+#   MIT License: www.aligajani.com
+#   PyQuote | pyquote.py
+#   Beautify your quotes
+
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
-
-# PyQuote: Beautify your quotes
 
 class PyQuote():
 
@@ -53,8 +55,8 @@ class PyQuote():
 
 py = PyQuote()
 
-quote = "The install instructions for PyQuote are given in the Github link given in this video - Enjoy."
-author = "Ali Gajani"
+quote = "Better beware of notions like genius and inspiration; they are a sort of magic wand and should be used sparingly by anybody who wants to see things clearly.."
+author = "P .J. O'Rourke"
 
-chunk = py.chunk(quote, 5)
+chunk = py.chunk(quote, 6)
 py.draw(chunk, author, "vinkk-template.jpg", ["h-ul.ttf", "h-th.ttf"], [45, 50])
