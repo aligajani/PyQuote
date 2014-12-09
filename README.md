@@ -2,7 +2,7 @@
 #####Beautify your quotes
 
 
-PyQuote is a simple script that allows you to overlay a quote and it's author on a well design template. PyQuote is kind of clever too. The red bar grows with the number of lines in your text. 
+PyQuote is a simple script that allows you to overlay a quote and it's author on a well designed template. PyQuote is kind of clever too. The red bar grows with the number of lines in your text. 
 
 ![image](http://i.imgur.com/aTKFVQj.png)
 
